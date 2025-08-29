@@ -1,0 +1,11 @@
+[package]
+name = "server_checker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.11", features = ["derive"] }
+tokio = { version = "1", features = ["full"] } # Adiciona o Tokio
+futures = "0.3" # Adiciona a crate 'futures'
+serde = { version = "1.0", features = ["derive"] } # Para serialização de dados
+serde_json = "1.0" # Para o formato JSON
